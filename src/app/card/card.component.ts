@@ -12,6 +12,7 @@ import{
 })
 export class CardComponent implements OnInit {
   @Input() user;
+  @Input() photo;
   faEnvelope=faEnvelope;
   faPhone = faPhone;
   faDatabase=faDatabase;
